@@ -1,6 +1,6 @@
 #Menu
 food_menu={"Idli":30,"Dosa":40,"Fried Rice":80,"Sandwich":50,"Tea":15}
-while(True):
+def menu_program():
     print("========== CANTEEN ==========")
     print("1. View Menu")
     print("2. Search Food")
@@ -26,5 +26,5 @@ while(True):
 
     elif(ch==3):
         print("Thank you Have your food")
-        break
-          
+        
+    return ch    
